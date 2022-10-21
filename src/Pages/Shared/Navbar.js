@@ -13,19 +13,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Navbar = () => {
 
     const menuItems = <>
-        <li ><Link to={''}><label className="btn btn-ghost btn-circle ">
-            <div className="w-6 rounded-full">
-                <img src={home} alt="" />
+        <li ><Link to={''}><label className="">
+            <div className=" btn btn-ghost btn-circle  rounded-full">
+                <img className="w-6" src={home} alt="" />
             </div>
         </label></Link></li>
-        <li><Link to={''}><label className="btn btn-ghost btn-circle ">
-            <div className="w-6 rounded-full">
-                <img src={setting} alt="" />
+        <li><Link to={''}><label className="">
+            <div className=" btn btn-ghost btn-circle  rounded-full">
+                <img className="w-6" src={setting} alt="" />
             </div>
         </label></Link></li>
-        <li><Link to={''}><label className="btn btn-ghost btn-circle ">
-            <div className="w-6 rounded-full">
-                <img src={notification} alt="" />
+        <li><Link to={''}><label className="">
+            <div className=" btn btn-ghost btn-circle rounded-full">
+                <img className="w-6" src={notification} alt="" />
             </div>
         </label></Link></li>
 
