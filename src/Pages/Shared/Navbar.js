@@ -14,17 +14,17 @@ const Navbar = () => {
 
     const menuItems = <>
         <li ><Link to={''}><label className="">
-            <div className=" btn btn-ghost btn-circle  rounded-full">
+            <div className=" btn btn-ghost btn-circle  rounded-full pt-4">
                 <img className="w-6" src={home} alt="" />
             </div>
         </label></Link></li>
         <li><Link to={''}><label className="">
-            <div className=" btn btn-ghost btn-circle  rounded-full">
+            <div className=" btn btn-ghost btn-circle  rounded-full pt-4">
                 <img className="w-6" src={setting} alt="" />
             </div>
         </label></Link></li>
         <li><Link to={''}><label className="">
-            <div className=" btn btn-ghost btn-circle rounded-full">
+            <div className=" btn btn-ghost btn-circle rounded-full pt-4">
                 <img className="w-6" src={notification} alt="" />
             </div>
         </label></Link></li>
@@ -34,7 +34,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-base-200 sticky px-8 ">
+        <div className="navbar bg-base-200 sticky px-8 pb-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -47,18 +47,18 @@ const Navbar = () => {
                 </div>
                 <Link to={'/'} className="btn btn-ghost normal-case text-xl"><img src={logo} alt="" /></Link>
             </div>
-            <div className="navbar-end hidden  lg:flex">
+            <div className="navbar-end hidden  lg:flex ">
                 <ul className="menu menu-horizontal p-0 ">
                     {menuItems}
                 </ul>
-                <div className='flex pl-5'>
+                <div className='flex pl-5 '>
                     <label className="btn btn-ghost btn-circle avatar">
                         <div className="w-8 rounded-full">
                             <img src="https://placeimg.com/80/80/people" />
                         </div>
                     </label>
 
-                    <label className="flex flex-col gap-1 btn btn-ghost btn-circle avatar">
+                    <label className="flex flex-col gap-1 btn btn-ghost btn-circle avatar ">
                         <div className="w-1  ">
                             <img src={option} alt="" />
                         </div>
