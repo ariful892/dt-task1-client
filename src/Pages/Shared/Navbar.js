@@ -29,8 +29,6 @@ const Navbar = () => {
             </div>
         </label></Link></li>
 
-
-
     </>
 
     return (
